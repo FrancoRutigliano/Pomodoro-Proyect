@@ -2,6 +2,7 @@
 
 let workTitulo = document.querySelector('#work')
 let breakTitulo = document.querySelector('#break')
+let recargar = document.querySelector('#reset')
 
 let workTime = 25
 let breakTime = 5
@@ -71,3 +72,9 @@ function start() {
   setInterval(timerfunction, 1000)
 
 }
+
+recargar.addEventListener('click', () => {
+  location.reload()
+})
+
+

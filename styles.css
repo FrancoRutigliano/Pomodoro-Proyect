@@ -132,4 +132,5 @@ section{
 
 .controls #reset{
   display: none;
+  cursor: pointer;
 }
